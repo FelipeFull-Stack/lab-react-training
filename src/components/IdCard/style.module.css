@@ -1,0 +1,12 @@
+.container {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+.imgFoto {
+  margin-right: 10px;
+  width: 150px;
+}
