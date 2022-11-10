@@ -22,21 +22,4 @@ export function Greetings(props) {
             Hola {props.children}
         </div>
     }
-
-//Hello - ne / Hola - es / Hallo - de / Bonjour - fr
-
-
-
-
-    return (
-        <>
-
-
-
-
-
-
-
-        </>
-    );
 }

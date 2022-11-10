@@ -1,11 +1,12 @@
 // import { ImgState } from "./components/ImgState";
 // import { IdCard } from "./components/IdCard";
-import { Greetings} from "./components/Greetings";
+// import { Greetings } from "./components/Greetings";
+import { Random } from "./components/Random";
 
 function App() {
-  return (
-    <>
-      {/* <IdCard
+    return (
+      <>
+        {/* <IdCard
         lastName="Doe"
         firstName="John"
         gender="male"
@@ -21,10 +22,14 @@ function App() {
         birth={"1988-05-11"}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       /> */}
-      <Greetings lang="de">Ludwig</Greetings>
-      <Greetings lang="fr">François</Greetings>
-    </>
-  );
-}
+
+        {/* <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings> */}
+
+        {/* <Random min={1} max={6} />
+        <Random min={1} max={100} /> */}
+      </>
+    );
+  }
 
 export default App;
