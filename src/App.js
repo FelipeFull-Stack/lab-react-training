@@ -1,12 +1,13 @@
 // import { ImgState } from "./components/ImgState";
 // import { IdCard } from "./components/IdCard";
 // import { Greetings } from "./components/Greetings";
-import { Random } from "./components/Random";
+// import { Random } from "./components/Random";
+import { BoxColor } from "./components/BoxColor";
 
 function App() {
-    return (
-      <>
-        {/* <IdCard
+  return (
+    <>
+      {/* <IdCard
         lastName="Doe"
         firstName="John"
         gender="male"
@@ -23,13 +24,16 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       /> */}
 
-        {/* <Greetings lang="de">Ludwig</Greetings>
+      {/* <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings> */}
 
-        {/* <Random min={1} max={6} />
+      {/* <Random min={1} max={6} />
         <Random min={1} max={100} /> */}
-      </>
-    );
-  }
+
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
+    </>
+  );
+}
 
 export default App;
