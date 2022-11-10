@@ -1,0 +1,35 @@
+.div {
+    width: 250px;
+    height:125px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.subDiv {
+    width: 100%;
+}
+
+.type {
+    text-align: right;
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(29, 45, 113)
+}
+
+.number {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.text {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 900;
+}
